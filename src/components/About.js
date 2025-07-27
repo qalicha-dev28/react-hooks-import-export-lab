@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"; // <-- Make sure this is only here ONCE!
+import { image } from "../data/user"; // <-- ADD THIS LINE for named import!
 
 function About() {
   return (
@@ -9,3 +10,5 @@ function About() {
     </div>
   );
 }
+
+export default About; // <-- Make sure this is here for default export!
